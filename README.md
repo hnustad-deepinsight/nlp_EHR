@@ -13,7 +13,7 @@ these can then be used in python with:
 import spacy  
 
 nlp = spacy.load("nb_core_news_md")  
-doc = nlp(sentences[0])  
+doc = nlp("Heisann kompis!")  
 print(doc.text)  
 for token in doc:  
     print(token.text, token.pos_, token.dep_)  
