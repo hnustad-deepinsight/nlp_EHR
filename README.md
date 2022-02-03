@@ -2,11 +2,11 @@ Testing of NLP software i python
 
 you can download the norwegian bokmål models with the following command:  
 
-small:
-python -m spacy download nb_core_news_sm
-medium:
-python -m spacy download nb_core_news_md
-large:
+small:  
+python -m spacy download nb_core_news_sm  
+medium:  
+python -m spacy download nb_core_news_md  
+large:  
 python -m spacy download nb_core_news_lg  
 
 these can then be used in python with:  
