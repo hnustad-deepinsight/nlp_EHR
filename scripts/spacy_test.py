@@ -10,6 +10,7 @@ nlp_doc = nlp(doc)
 
 for sentence in nlp_doc.sents:
     print(sentence)
+    print(len(sentence))
 
 displacy.serve(nlp_doc.sents, style="dep")  # served on: http://0.0.0.0:5000/
 displacy.serve(nlp_doc.sents, style="ent")  # served on: http://0.0.0.0:5000/
